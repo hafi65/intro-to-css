@@ -1,19 +1,47 @@
-body{
-   background-color: rgb(250, 215, 225); 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    color: #333;
 }
-h1{
-    background-color: aliceblue;
+
+
+h1 {
+background-color: rgb(234, 182, 145);
 }
-p{
-    color: brown;
+
+
+table {
+    width: 40%;
+    height: 30%;
 }
-h2{
-    background-color: aliceblue;
-    color: rgb(24, 21, 21);
+
+table, th, td {
+    border: 1px solid #ccc;
 }
-ul{
-    color: rgb(4, 4, 5);
+
+th, td {
+    padding: 10px;
+    text-align: left;
 }
+
+
+form {
+    background-color: #fbb968;
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    
+}
+
+input[type="submit"] {
+    background-color: #4c5eaf;
+    color: white;
+    
+}
+
 
 
 

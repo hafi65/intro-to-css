@@ -1,45 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link href="style.css"  rel="stylesheet"   type="text/css"/>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=0.1"
-<link href="style.css"  rel="stylesheet"   type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
 
-<h1>Welcome to my website</h1>
-<p>My name is laiba and today we learn about css  so let's start today lecture ,in today lecture we are learn about how to change your backgroundcolor</p>
-<ul>
-<li>text color</li>
-<li>backgroundcolor</li>
-<li>headingcolor</li>
-</ul>
-<h2>About us</h2>
-<p>This is a simple  web page to demonstrate css styling</p>
-<h2>Table</h2>
-<table border="1">
-<tr>
-<th>students name</th>
-<th> Exams marks</th>
+    <section>
+        <h2>About the Website</h2>
+        <p>This is a short website with a table, form, and other elements styled using external CSS.</p>
+    </section>
 
+    <section>
+        <h2>Sample Table</h2>
+        <table border="1">
+            <tr>
+     <th>Name</th>
+     <th>Age</th>
+     <th>Country</th>
+            </tr>
+            <tr>
+                <td>Sara</td>
+                <td>22</td>
+                <td>Pakistan</td>
 </tr>
-
-
 <tr>
+ <td>John</td>
+  <td>30</td>
+      <td>USA</td>
+            </tr>
+        </table>
+    </section>
 
-    <td>Laiba </td>
-    <td>49</td>
-</tr>
- 
-<tr>
-<td>Mahnoor</td>
-<td>47</td>
-</tr>
+    <section>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-</table>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
 
+            <input type="submit" value="Submit">
+        </form>
+    </section>
 
-
+    
 </body>
 </html>
